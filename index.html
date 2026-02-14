@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -11,20 +12,107 @@
   <title>Продуктовая корзина</title>
 </head>
 
-<body style="font-family: Montserrat;">
-  <div>
-    <img src="images/moisturizing_mousse.png" alt="Увлажняющий мусс" width="290" height="245">
-    <p style="text-transform: uppercase;">для нормальной кожи</p>
-    <h2>Увлажняющий мусс</h2>
-    <p>Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.</p>
-    <span>Состав:</span>
-    <ul>
-      <li type="circle">активные натуральные комплексы</li>
-      <li type="circle">витамины С, А, РР, В И Е</li>
-      <li type="circle">солнцезащитные компоненты</li>
-    </ul>
-    <span style="font-weight: bold;">Цена</span>
-    <span>2 750 &#8381</span>
+<body>
+  <div class="page">
+    <h1 class="page-title">Выбери свой продукт</h1>
+    <div class="product-cart-wrapper">
+
+      <div class="product-cart">
+        <img class="product-cart__image" src="images/moisturizing_mousse.png" alt="Увлажняющий мусс">
+        <p class="product-cart__type">для нормальной кожи</p>
+        <h2 class="product-cart__title">Увлажняющий мусс</h2>
+        <span class="product-cart__description">Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.</span>
+        <div class="ingredients-block">
+          <ul class="ingredients-block__list">
+            <li id="ingredients-block__title">Состав:</li>
+            <li>активные натуральные комплексы</li>
+            <li>витамины С, А, РР, В И Е</li>
+            <li>солнцезащитные компоненты</li>
+          </ul>
+        </div>
+        <div class="price-block">
+          <span class="price-label">Цена</span>
+          <span class="price-cost">2 750 &#8381</span>
+        </div>
+      </div>
+
+      <div class="product-cart">
+        <img class="product-cart__image" src="images/moisturizing_mask.png" alt="Увлажняющая маска">
+        <p class="product-cart__type">для нормальной кожи</p>
+        <h2 class="product-cart__title">Увлажняющая маска</h2>
+        <span class="product-cart__description">Способствует удерживанию влаги в верхних слоях кожи.</span>
+        <div class="ingredients-block">
+          <ul class="ingredients-block__list">
+            <li id="ingredients-block__title">Состав:</li>
+            <li>воски</li>
+            <li>минералы</li>
+            <li>масла</li>
+          </ul>
+        </div>
+        <div class="price-block">
+          <span class="price-label">Цена</span>
+          <span class="price-cost">3 500 &#8381</span>
+        </div>
+      </div>
+
+      <div class="product-cart">
+        <img class="product-cart__image" src="images/face_wash_gel.png" alt="Гель для умывания">
+        <p class="product-cart__type">для нормальной кожи</p>
+        <h2 class="product-cart__title">Гель для умывания</h2>
+        <span class="product-cart__description">Интенсивно очищает, не повреждает защитный барьер кожи.</span>
+        <div class="ingredients-block">
+          <ul class="ingredients-block__list">
+            <li id="ingredients-block__title">Состав:</li>
+            <li>минералы</li>
+            <li>витамины С, А, РР, В И Е</li>
+            <li>солнцезащитные компоненты</li>
+          </ul>
+        </div>
+        <div class="price-block">
+          <span class="price-label">Цена</span>
+          <span class="price-cost">1 650 &#8381</span>
+        </div>
+      </div>
+
+      <div class="product-cart">
+        <img class="product-cart__image" src="images/gift_set_1.png" alt="Подарочный набор №1">
+        <p class="product-cart__type">для нормальной кожи</p>
+        <h2 class="product-cart__title">Подарочный набор №1</h2>
+        <span class="product-cart__description">Набор, состоящий из увлажняющего крема и маски.</span>
+        <div class="ingredients-block">
+          <ul class="ingredients-block__list">
+            <li id="ingredients-block__title">Состав:</li>
+            <li>воски</li>
+            <li>минералы</li>
+            <li>масла</li>
+          </ul>
+        </div>
+        <div class="price-block">
+          <span class="price-label">Цена</span>
+          <span class="price-cost">4 750 &#8381</span>
+        </div>
+      </div>
+
+      <div class="product-cart">
+        <img class="product-cart__image" src="images/gift_set_5.png" alt="Подарочный набор №5">
+        <p class="product-cart__type">для нормальной кожи</p>
+        <h2 class="product-cart__title">Подарочный набор №5</h2>
+        <span class="product-cart__description">Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.</span>
+        <div class="ingredients-block">
+          <ul class="ingredients-block__list">
+            <li id="ingredients-block__title">Состав:</li>
+            <li>воски</li>
+            <li>минералы</li>
+            <li>масла</li>
+          </ul>
+        </div>
+        <div class="price-block">
+          <span class="price-label">Цена</span>
+          <span class="price-cost">7 520 &#8381</span>
+        </div>
+      </div>
+
+    </div>
   </div>
 </body>
 

@@ -7,7 +7,7 @@ body {
 
 .page {
   width: 1110px;
-  background-image: url(../images/background.jpg);
+  background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -63,14 +63,18 @@ body {
   margin-top: 15px;
 }
 
-#ingredients-block__title {
+.ingredients-block__title {
   list-style: none;
-  margin: 0 0 0 -12.5px;
 }
 
 .ingredients-block__list {
   list-style: circle;
-  padding: 0 0 0 12.5px;
+  margin-top: 5px;
+  margin-left: -25px;
+}
+
+.ingredients-block__items {
+  margin-top: 5px;
 }
 
 .price-block {

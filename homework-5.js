@@ -1,11 +1,11 @@
 // 3. Создать функцию, которая принимает 2 параметра: город и температуру и выводит сообщение в консоль 
 // "Сейчас в X температура  — Y градусов по Цельсию"
 
-function postMessagTemperature(city, temperature) {
+function showTemperature(city, temperature) {
   console.log(`Сейчас в городе ${city} температура ${temperature} градусов по Цельсию`);
 }
 
-postMessagTemperature('Набережные Челны', '-8');
+showTemperature('Набережные Челны', '-8');
 
 // 4. Создать переменную, которая хранит внутри себя скорость света (гуглим). Создать функцию, 
 // которая принимает 1 аргумент - скорость, внутри функции происходит проверка: если переданная скорость 
@@ -34,7 +34,7 @@ checkSpeed(399);
 const productName = 'Микроволновая печь';
 const productCost = 2569;
 
-function checkBudget(budget) {
+function payProduct(budget) {
   if (budget >= productCost) {
     console.log(`${productName} приобретена. Спасибо за покупку!`);
   } else {
@@ -42,7 +42,7 @@ function checkBudget(budget) {
   }
 }
 
-checkBudget(5000);
+payProduct(5000);
 
 // 6. Создать 1 функцию и именовать её по своему усмотрению
 

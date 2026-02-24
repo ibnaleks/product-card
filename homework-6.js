@@ -102,7 +102,7 @@ countries.push({
 
 // 9. Создаем массив, состоящий из стран Американских континентов и объединяем в один массив все страны
 
-const americasCountries = [
+const americanCountries = [
   {
     countryName: 'США',
     continent: 'Северная Америка',
@@ -145,7 +145,7 @@ const americasCountries = [
   },
 ];
 
-const allCountries = [...countries, ...americasCountries];
+const allCountries = [...countries, ...americanCountries];
 
 // 10. Создаем функцию, которая добавляет каждой стране новое свойство isBigCountry: true или false
 

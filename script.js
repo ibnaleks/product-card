@@ -1,20 +1,20 @@
 // Меняем цвет фона первой карточки
 
 const recolorFirstCardButtom = document.querySelector('.recolor-first-card-buttom');
-const firstProductCard = document.querySelector('.product-card');
 const redHeshColor = '#ffe9e9';
 
 recolorFirstCardButtom.addEventListener('click', () => {
+  const firstProductCard = document.querySelector('.product-card');
   firstProductCard.style.backgroundColor = redHeshColor;
 });
 
 // Меняем цвет фона всех карточек
 
 const recolorCardsButtom = document.querySelector('.recolor-cards-buttom');
-const productCards = document.querySelectorAll('.product-card');
 const greenHeshColor = '#e5ffe5';
 
 recolorCardsButtom.addEventListener('click', () => {
+  const productCards = document.querySelectorAll('.product-card');
   productCards.forEach(element => element.style.backgroundColor = greenHeshColor);
 });
 
